@@ -33,6 +33,9 @@ This guide provides step-by-step instructions to initialize, configure, and star
 # Initialize the chain
 deltad init delta-mainnet   --chain-id deltamainnet_1313-1   --default-denom adlta
 
+#Modify Genesis with custom parameter
+Replace the generated ~/.delta/config/genesis.json with the provided genesis.json and change genesis_time as per your genesis.
+
 # Add a validator key
 deltad keys add validator1
 ```
